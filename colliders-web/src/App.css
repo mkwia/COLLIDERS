@@ -1,0 +1,67 @@
+.main-app {
+  text-align: center;
+  margin: 100px;
+  background: #030303;
+}
+
+
+
+
+.form-control input {
+  height:100%;
+}
+
+.mintForm {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.mintForm input {
+  margin-right: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: large;
+}
+
+.cta-button {
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  min-width: 250px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.connect-wallet-button {
+  background: #1969ff;
+}
+
+.mint-nft-button {
+  background: rgb(255, 102, 0);
+}
+
+.mint-disabled-button {
+  background: rgb(202, 16, 16);
+}
+
+.yourNFTs .grid {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.yourNFTs .grid div {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f203c;
+  color: white;
+}
+
+.yourNFTs .grid div a{
+  color: white;
+}

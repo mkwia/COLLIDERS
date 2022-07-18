@@ -1,0 +1,40 @@
+.mint {
+    background: -webkit-linear-gradient(25deg,#d64c7f,#ee4758 50%);
+}
+
+.mint-container {
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 10px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.mint-container h2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.mint-container hr {
+    border: 1px solid white;
+}
+
+.mint-gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.mint-container p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* Mobile CSS */
+@media only screen and (max-width: 768px) {
+    .mint-container h2 {
+        font-size: 28px;
+    }
+}

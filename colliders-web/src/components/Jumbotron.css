@@ -1,0 +1,116 @@
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    /* background-image: url('../images/zkpunks_bg.png'); */
+}
+
+.jt-container {
+    max-width: 1024px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.jt-content {
+    margin-right: 50px;
+}
+
+.jt-content h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 15px;
+    background: -webkit-linear-gradient(-70deg, #ffff00 0%, #ff0000 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.jt-content p {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.jt-image {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.jt-image img {
+    max-width: 420px;
+    /* border-radius: 15px; */
+}
+
+.jt-social-links img {
+    max-width: 40px;
+}
+
+.jt-social-links a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.jt-social-links {
+    padding: 0px !important;
+    margin-top: 55px;
+}
+
+.cta-link {
+    border: 1px solid #1969ff;
+    padding: 10px 30px;
+    width: 300px;
+    background: inherit;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.cta-link a, .cta-link a:visited {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Mobile CSS */
+@media only screen and (max-width: 768px) {
+
+    .desktop-only {
+        display: none;
+    }
+
+    .jt-container {
+        display: block;
+        text-align: center;
+    }
+
+    .jt-content {
+        margin-right: 0px;
+    }
+
+    .jt-image {
+        margin: 0px auto;
+    }
+
+    .jt-image img {
+        max-width: 256px;
+        margin: 0px auto;
+    }
+
+    .jt-content h1 {
+        font-size: 30px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .jt-content p {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 5px 15px;
+    }
+
+    .jt-social-links {
+        padding: 0px !important;
+        margin-top: 30px;
+    }
+}
